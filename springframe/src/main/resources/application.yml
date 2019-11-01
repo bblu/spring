@@ -19,7 +19,7 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 mapper:
-  mappers: com.zoomway.patrol.dao.BaseDAO
+  mappers: BaseDAO
   not-empty: false
   identity: postgresql
 storage:
